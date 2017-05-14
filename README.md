@@ -36,8 +36,6 @@ Please read
 
 ## Authors
 
-* Maciej Dolny,
-* Zachariasz Staniszewski
 
 ## License
 
