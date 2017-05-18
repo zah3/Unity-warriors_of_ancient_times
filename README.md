@@ -8,7 +8,7 @@ Go back in time to ancients China. Improve skills of Your worriors and with them
 
 ### Prerequisites
 
-You have to install unity 4.* for use this project.
+You have to install  Unity 5.6.1f1 (64-bit) or higher for use this project.
 
 ```
 www.unity.com
@@ -16,7 +16,7 @@ www.unity.com
 
 ### Installing
 
-A step by step series 
+A step by step series
 
 
 ## Deployment
@@ -24,12 +24,12 @@ A step by step series
 
 ## Built With
 
-* Unity 4.*
-* Adobe photoshop 
+* Unity 5.6.1f1 (64-bit)
+* Adobe photoshop
 
 ## Contributing
 
-Please read 
+Please read
 
 ## Versioning
 
@@ -42,6 +42,3 @@ Please read
 
 
 ## Acknowledgments
-
-
-
