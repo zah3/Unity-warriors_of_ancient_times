@@ -1,4 +1,6 @@
 Library/
 Assets/_Prefabs/tutorial_map.png
-Assets/_Prefabs/test_background_1200_2400.png.meta
-.vs
+Assets/_Prefabs/tutorial_map.png.meta
+.vs/
+Temp
+obj/Debug/
