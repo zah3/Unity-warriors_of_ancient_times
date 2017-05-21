@@ -1,0 +1,44 @@
+using UnityEngine;
+using System.Collections;
+
+public class Player : MonoBehaviour {
+
+
+    public int health = 100;
+    private int current_time = 0;
+    public int hit_time = 4;
+    public int force = 25;
+         
+
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+
+        void OnColiisionEnter2D(Collision2D coll)
+        {
+            Enemy enemy = coll.collider.GetComponent<enemy>() as enemy;
+            Enemy enemy_time = coll.collider.GetComponent<hit_time>() as enemy_time; 
+            Enemy enemy_force = coll.collider.GetComponent<force>() as enemy_force;
+
+            if (enemy != 0)
+            {
+                if (current_time>=enemy_time)
+                {
+                    health -=enemy_force;
+                    current_time = 0;
+                }
+                current_time += Time.deltaTime;
+            }
+
+            if(health<=0)
+            {
+                Destroy(gameObject);
+            }
+        }
+	}
+}
