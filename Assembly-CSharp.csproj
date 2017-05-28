@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{89B8C801-4A4A-4B6B-4BD0-4598D4607D41}</ProjectGuid>
+    <ProjectGuid>{C132594A-928C-86DF-54BB-28617E4DB357}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,8 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraController.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Entities\Enemy\EnemyController.cs" />
+     <Compile Include="Assets\Entities\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\FightingController.cs" />
+     <Compile Include="Assets\Scripts\LevelMenager.cs" />
+     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/pro/Unity 5.x/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
