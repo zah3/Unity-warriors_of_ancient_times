@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * skrypt napisany przez Zachariasza Staniszewskiego
+ * Zmiana poziomów.
+ */
 public class LevelMenager : MonoBehaviour {
 
     public void LoadLevel(string name)
